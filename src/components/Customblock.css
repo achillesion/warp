@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+.customblockswrap .container {
+     max-width: 100% !important;
+     width: 100%;
+}
+
+.customblockswrap .container .content-box {
+     width: 100%;
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+}
+
+.customblockswrap {
+     margin-top: 10%;
+}
+
+.customblockswrap .container .content-box div {
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 20px 15px; 
+}
+
+.customblockswrap .container .content-box div h5 {
+     font-size: 24px;
+     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.customblockswrap .container .content-box div p {
+     font-size: 12px;
+     font-weight: 300;
+     margin-top: 12px;
+     text-align: initial;
+}
+
+.customblockswrap .container .content-box div:nth-child(even) {
+     border-bottom: 5px solid #8500C5;
+     width: 60%;
+     margin: 0 auto;
+}
+
+.customblockswrap .container .content-box div:nth-child(odd) {
+     border: 5px solid #8500C5;
+     border-top-right-radius: 4px;
+     border-top-left-radius: 4px;
+     width: 40%;
+     margin: 0 auto;
+     border-bottom: 0px;
+}
+
+/* second block css*/
+#content-boxx .wrapone {
+     border: 0px;
+     border-bottom: 5px solid #8500C5 !important;
+}
+
+#content-boxx {
+     margin-top: 4%;
+     margin-bottom: 10%;
+}
+@media screen and (max-width:1450px)
+{
+     .customblockswrap .container .content-box div:nth-child(even){
+          width:20px;
+     }
+}
