@@ -31,6 +31,11 @@
      padding: 1rem 0;
 }
 
+.hero .input-container .btn {
+     font-family: 'POPPINS';
+}
+
+
 .hero .right {
      padding: 1rem;
      display: flex;
@@ -50,17 +55,62 @@
 @media screen and (max-width: 940px) {
      .hero .container {
           grid-template-columns: 1fr;
-          margin: 1rem 0;
-
-
      }
 
      .hero .item:nth-child(1) {
           order: 2;
+          text-align: center;
      }
 
      .hero .item:nth-child(2) {
-          order: 1;
+          order: 1
+     }
+
+     .hero .container p {
+          display: none;
+     }
+
+     .hero .input-container {
+          display: block !important;
+          max-width: 425px;
+          margin: auto;
+     }
+
+     .hero .input-container .btn {
+          border: 0px!important;
+          width: 100%;
+          margin: auto !important;
+          text-align: center;
+          margin-top: 2% !important;
+          border-radius: 6px;
+     }
+
+     .hero .btn img {
+          margin-right: 10px !important;
+          margin: 0;
+          width: 16px;
+     }
+     .customblockswrap {
+          display: none;
+     }
+
+     .hero .container h1 {
+          font-size: 26px !important;
+          width: 80%;
+          margin: auto;
+     }
+
+     .btn-connect-wallet {
+          background-color: #8500C5 !important;
+          border: 0px !important;
+     }
+
+     .btn-getstart {
+          background-color: #14054F !important;
+     }
+
+     .noticed {
+          display: none;
      }
 }
 
@@ -73,6 +123,26 @@
 .hero .input-container {
      display: flex;
 }
+
 .connectwalltbtn {
-     margin-right: 4px!important;
- }
+     margin-right: 4px !important;
+}
+
+@media screen and (max-width:1210px) {
+     .hero .container h1 {
+          font-size: 37px;
+     }
+
+     .hero p {
+          font-size: 20px;
+     }
+}
+
+.btn-connect-wallet {
+     background-color: #14054F;
+     border: 1px solid #8500C5;
+}
+
+.btn-getstart {
+     background-color: #8500C5;
+}

@@ -26,7 +26,7 @@ a {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 96%;
   margin: auto;
   width: 94%;
 }
@@ -38,7 +38,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to right,#14054F, #8500C5);
+  background-image: linear-gradient(116.39deg, #14054F 10.65%, #45108A 62.91%);
 }
 
 code {
@@ -142,29 +142,6 @@ input {
   }
 }
 
-
-@media screen and (max-width:1370px)
-{
-   .header  .btn{
-    margin: 0px;
-    font-size: 12px!important;
-    }
-    .sitelogo{
-      width: 104px!important;
-    }
-    .nav-menu a{
-      font-size: 12px!important;
-    }
-}
-
-
-@media screen and (max-width:1100px)
-{
-    .nav-menu li{
-      padding: 6px!important;
-    }
-}
-
 /* popup */
 /* Popup container - can be anything you want */
 .popup {
@@ -222,3 +199,18 @@ input {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+@media screen and (min-width:942px) {
+  .header .container {
+      max-width: 1440px   ;
+  }
+}
+@media screen and (max-width:942px) {
+  .header .container .nav-menu {
+      display: block ;
+      left: 0;
+      right: 0;
+      margin-left: 0;
+  }
+}
+

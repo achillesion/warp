@@ -3,6 +3,7 @@ import './Hero.css'
 import Plant from '../assets/bc-plant.svg'
 import buttonpluslogo from '../assets/Vector.png'
 import buttonget from '../assets/getbtn.png'
+import mobilemenubtn from '../assets/mobilebuttonshome.png'
 
 const Hero = () => {
     return (
@@ -15,8 +16,8 @@ const Hero = () => {
                     <h1>WARP is the most advanced Mining</h1>
                     <p>A decentralized web app with DAO protocol </p>
                     <div className='input-container'>
-                        <button className=' btn btn-connect-wallet'style={{backgroundColor:'#14054F', border: "1px solid #8500C5"}} ><img className='connectwalltbtn' src={buttonpluslogo} alt='' /> Connect Wallet</button>
-                        <button className='btn' style={{backgroundColor:'#8500C5'}}><img className='connectwalltbtn' src={buttonget} alt='' /> Get Started</button>
+                        <button className=' btn btn-connect-wallet'><img className='connectwalltbtn' src={mobilemenubtn} alt='' /> Connect Wallet</button>
+                        <button className='btn btn-getstart'><img className='connectwalltbtn' src={buttonget} alt='' /> Get Started</button>
                     </div>
                 </div>
 

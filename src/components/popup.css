@@ -3,14 +3,12 @@ body.active-modal {
 }
 
 .btn-modal {
-    padding: 10px 20px;
     display: block;
-    font-size: 18px;
 }
 
-.modal,
-.overlay {
-    width: 100vw;
+.modal, .overlay {
+    max-width: 100%;
+    margin: auto;
     height: 100vh;
     top: 0;
     left: 0;
@@ -22,12 +20,12 @@ body.active-modal {
 .modal-content {
     position: absolute;
     top: 80px;
-    right: 54px;
+    right: 6%;
     line-height: 1.4;
     width: 380px;
-    padding: 14px 28px;
+    padding: 35px 28px;
     border-radius: 3px;
-    height: 320px;
+    height: 340px;
 }
 
 .close-modal {
@@ -50,15 +48,15 @@ body.active-modal {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    ;
 }
 
 .prntwrap {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     text-align: center;
+    align-items: center;
     color: white;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .prntwrap p {
@@ -100,10 +98,4 @@ body.active-modal {
     font-size: 16px;
     line-height: 15px;
     margin-bottom: 12px;
-}
-@media screen and (min-width:1644px)
-{
-    .modal-content{
-        right: 202px;
-    }
 }

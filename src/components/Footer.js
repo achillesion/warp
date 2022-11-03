@@ -3,12 +3,14 @@ import "./Footer.css"
 import  twiticon from '../assets/Twittericon.png'
 import  kitee from '../assets/Kiteicon.png'
 import  messg from '../assets/mesggicon.png'
+import  footerbg from '../assets/Footerbg.png'
+
 
 const Footer = () => {
   return (
      <>
-    <div className='mainwrap'>
-     <div className='container'>
+    <div className='mainwrap' style={{ backgroundImage: `url(${footerbg})`}} >
+     <div className='container'  >
      <div className="leftwrap">
           <h4>WARP Network</h4>
      </div>
