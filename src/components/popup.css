@@ -6,8 +6,9 @@ body.active-modal {
     display: block;
 }
 
-.modal, .overlay {
-    max-width: 100%;
+.modal,
+.overlay {
+    max-width: 1440px;
     margin: auto;
     height: 100vh;
     top: 0;
@@ -98,4 +99,29 @@ body.active-modal {
     font-size: 16px;
     line-height: 15px;
     margin-bottom: 12px;
+}
+
+@media screen and (max-width:942px) {
+    .modal-content {
+        top: 66px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .prntwrap h3,
+    .prntwrap p {
+        font-size: 14px;
+    }
+
+    .modal-content img {
+        width: 38%;
+        margin: auto;
+    }
+    .close-modal{
+        height:28px;
+    }
 }

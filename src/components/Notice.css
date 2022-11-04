@@ -13,6 +13,22 @@
      font-size:18px;
      margin-top:20px;
 }
-.noticed .container {
-     width: 82%;
+.noticed .container{
+     max-width: 1440px;
+     padding: 0 1rem;
+}
+@media screen and (min-width:924px){
+     .noticed .container{
+          max-width: 1440px;
+          padding: 0 1rem;
+     }
+}
+@media screen and (max-width:924px)
+{
+     .noticed p{
+          font-size: 14px;
+     }
+     .noticed .content-box h3{
+          font-size: 18px;
+     }
 }

@@ -12,6 +12,7 @@
      display: flex;
 }
 
+
 .customblockswrap {
      margin-top: 10%;
 }
@@ -23,7 +24,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: flex-start;
-     padding: 20px 10px; 
+     padding: 20px 10px;
 }
 
 .customblockswrap .container .content-box div h5 {
@@ -32,10 +33,10 @@
 }
 
 .customblockswrap .container .content-box div p {
-     font-size: 12px;
+     font-size: 11px;
      font-weight: 300;
      margin-top: 12px;
-     text-align: initial;
+     text-align: center;
 }
 
 .customblockswrap .container .content-box div:nth-child(even) {
@@ -63,9 +64,77 @@
      margin-top: 4%;
      margin-bottom: 10%;
 }
-@media screen and (max-width:1450px)
-{
-     .customblockswrap .container .content-box div:nth-child(even){
-          width:20px;
+
+@media screen and (max-width:1450px) {
+     .customblockswrap .container .content-box div:nth-child(even) {
+          width: 20px;
      }
+}
+
+@media screen and (min-width:923px) {
+     #mobilecustomblockswrap {
+          display: none;
+     }
+}
+
+@media screen and (max-width:924px) {
+     .customblockswrap {
+          display: none;
+     }
+
+     #mobilecustomblockswrap {
+          display: block;
+          padding: 0px 22px;
+     }
+
+     .customblockswrap .container .content-box {
+          display: grid;
+          grid-template-columns: auto;
+     }
+
+     .customblockswrap .container .content-box div:nth-child(even) {
+          display: none;
+     }
+
+     .customblockswrap .container .content-box div:nth-child(odd) {
+          border: 0px !important;
+          width: 100%;
+     }
+
+     #content-boxx .wrapone {
+          display: none;
+     }
+
+     .customblockswrap .container {
+          display: flex;
+     }
+
+     #content-boxx {
+          margin-top: 0;
+     }
+}
+
+#mobilecustomblockswrap .container .content-box div:nth-child(odd) {
+     margin-top: 2px;
+     height: 106px;
+     justify-content: flex-start;
+     align-items: flex-start;
+}
+
+#mobilecustomblockswrap .content-box {
+     margin-top: 0px;
+}
+
+#mobilecustomblockswrap .container .content-box div p {
+     text-align: left;
+}
+
+.max-img {
+     width: 28px;
+     margin-bottom: 8px;
+     margin-top: 0px;
+}
+
+#mobilecustomblockswrap .container .content-box div h5 {
+     font-size: 22px;
 }

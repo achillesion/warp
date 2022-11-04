@@ -15,7 +15,7 @@
     align-items: center;
     height: 100%;
     margin-top: 16px;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .colors {
@@ -164,9 +164,15 @@
         font-size: 16px;
         font-weight: 700;
     }
+    #mobilehead .btn{
+        margin-right: 12px!important;
+    }
 }
 
 @media screen and (min-width:942px) {
+    .hero .container{
+        max-width: 1440px;
+    }
     #mobilehead {
         display: none !important;
     }
@@ -234,4 +240,12 @@
 #mobilehead .nav-menu a img {
     margin-right: 6px;
     width: 22px;
+}
+#mobilecustomblockswrap .connectwalltbtn{
+    display: none;
+}
+@media screen and (max-width:425px){
+    #mobilehead .btn{
+        width: 90%!important;
+    }
 }
