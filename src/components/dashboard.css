@@ -94,6 +94,8 @@
      display: flex;
      justify-content: space-between;
      padding: 20px;
+     width: 94%;
+     margin: auto;
 }
 
 .hiringright h3 {
@@ -103,4 +105,235 @@
      font-size: 15px;
      line-height: 28px;
      color: #FFFFFF;
+}
+
+.hirwall .hiring p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 16px;
+     color: #FFFFFF;
+}
+
+.leftimepool .hiringright p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+.timepooldiv {
+     text-align: center;
+     color: #ffffff;
+     margin-top: 22px;
+}
+
+.timepooldiv h2 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+.timepooldiv h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+.depositwarp {
+     display: flex;
+     justify-content: space-between;
+     width: 94%;
+     margin: 10px auto;
+}
+
+.leftside .bottomdisclaimerwrap .depositwarp p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+.poolform {
+     text-align: center;
+}
+
+.poolform input {
+     height: 40px;
+     width: 96%;
+     margin: auto;
+     background: #FFFFFF;
+     border: 1px solid #14054F;
+     border-radius: 5px;
+}
+
+.poolform button {
+     background: #14054F;
+     border: 1px solid #7C1DC9;
+     border-radius: 5px;
+     color: #ffffff;
+     width: 95%;
+     height: 40px;
+     margin: 10px auto;
+     margin-top: 20px !important;
+}
+
+.hiringright img {
+     margin-right: 10px;
+}
+
+.rightimepool .hirwall .hiring p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+#righthired p:first-child {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 28px;
+     color: #FFFFFF;
+}
+
+.hiredbuttons button {
+     width: 88%;
+     height: 44.93px;
+     background: #14054F;
+     border: 1px solid #7C1DC9;
+     border-radius: 5px;
+     color: #ffffff;
+     margin: 6px auto;
+}
+
+.hiredbuttons {
+     text-align: center;
+}
+
+.rightimepool .withdrawin p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 12px;
+     line-height: 16px;
+     color: #FFFFFF;
+}
+
+.rightimepool {
+     position: relative;
+}
+
+.withdrawin {
+     width: 90%;
+     margin: 20px auto;
+}
+
+.referrallink {
+     display: flex;
+     justify-content: center;
+     align-items: baseline;
+     position: absolute;
+     bottom: 43px;
+     left: 0;
+     right: 0;
+}
+
+.rightimepool .referrallink p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 10px;
+     line-height: 12px;
+     color: #FFFFFF;
+}
+
+.rightimepool .referrallink img {
+     margin-right: 6px;
+}
+
+@media screen and (max-width:942px) {
+     .parentdisclaimer .container {
+          display: flex;
+          flex-direction: column-reverse;
+     }
+
+     .parentdisclaimer .rightside .content-box {
+          display: grid;
+          grid-template-columns: auto auto;
+          justify-content: space-between;
+     }
+
+     .bottomdisclaimerwrap {
+          display: block;
+     }
+
+     .leftimepool,
+     .rightimepool {
+          margin-top: 20px !important;
+          margin: auto;
+     }
+
+     .parentdisclaimer .leftside p {
+          font-size: 14px;
+     }
+
+     .darkbluebox p {
+          font-size: 13px;
+          line-height: 15px;
+     }
+
+     .darkbluebox h4 {
+          font-size: 14px;
+     }
+
+     .darkbluebox {
+          width: 100%;
+          margin: 10px auto;
+          padding: 10px;
+     }
+
+     .withdrawin {
+          display: none;
+     }
+
+     .parentdisclaimer .container {
+          width: 100%;
+     }
+
+     .topdisclaimerwrap {
+          margin-top: 8% !important;
+          width: 92%;
+          margin: auto;
+     }
+
+     .hiredbuttons button {
+          background: #FFFFFF;
+          border: 1px solid #8500C5;
+          border-radius: 8px;
+          color: #8500C5;
+     }
+
+     .hiredbuttons .hiree {
+          background: #14054F;
+          border-radius: 8px;
+          color:  #FFFFFF;
+     }
+     .rightimepool .hirwall{
+          justify-content: flex-start;
+          align-items: center;
+     }
 }
