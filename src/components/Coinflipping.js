@@ -179,8 +179,8 @@ function Coinflipping() {
                     </div>
                 </div>
             </div>
-        </>  
+        </>
     )
-}  
+}
 // export function
 export default Coinflipping

@@ -6,6 +6,8 @@ import Dashboard from "./components/Dashboard";
 import Coinflipping from "./components/Coinflipping";
 import "./index.css";
 import Footer from "./components/Footer";
+import Faq from "./components/Faq";
+import Swaps from "./components/Swaps";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/Dashboard" element={<Dashboard />}/>
           <Route path="/coin-flipper" element={<Coinflipping />}/>
+          <Route path="/contact-us" element={<Faq />}/>
+          <Route path="/swaps" element={<Swaps />}/>
         </Routes>
         < Footer />
       </div>
