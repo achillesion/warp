@@ -27,7 +27,6 @@
 }
 
 .darkbluebox p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 500;
      font-size: 15px;
@@ -36,7 +35,6 @@
 }
 
 .darkbluebox h4 {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 600;
      font-size: 24px;
@@ -46,7 +44,6 @@
 
 
 .parentdisclaimer .content-box h3 {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 700;
      font-size: 20px;
@@ -55,7 +52,6 @@
 }
 
 .parentdisclaimer .leftside p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 500;
      font-size: 18px;
@@ -99,7 +95,6 @@
 }
 
 .hiringright h3 {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 500;
      font-size: 15px;
@@ -108,7 +103,6 @@
 }
 
 .hirwall .hiring p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 600;
      font-size: 12px;
@@ -117,7 +111,6 @@
 }
 
 .leftimepool .hiringright p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 600;
      font-size: 24px;
@@ -132,7 +125,6 @@
 }
 
 .timepooldiv h2 {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 700;
      font-size: 24px;
@@ -141,7 +133,6 @@
 }
 
 .timepooldiv h3 {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 400;
      font-size: 20px;
@@ -157,7 +148,6 @@
 }
 
 .leftside .bottomdisclaimerwrap .depositwarp p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 500;
      font-size: 12px;
@@ -194,7 +184,6 @@
 }
 
 .rightimepool .hirwall .hiring p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 500;
      font-size: 12px;
@@ -225,7 +214,6 @@
 }
 
 .rightimepool .withdrawin p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 300;
      font-size: 12px;
@@ -253,7 +241,6 @@
 }
 
 .rightimepool .referrallink p {
-     font-family: 'Inter';
      font-style: normal;
      font-weight: 300;
      font-size: 10px;
@@ -273,7 +260,7 @@
 
      .parentdisclaimer .rightside .content-box {
           display: grid;
-          grid-template-columns: auto auto;
+          grid-template-columns: 40% 40%;
           justify-content: space-between;
      }
 
@@ -330,10 +317,33 @@
      .hiredbuttons .hiree {
           background: #14054F;
           border-radius: 8px;
-          color:  #FFFFFF;
+          color: #FFFFFF;
      }
-     .rightimepool .hirwall{
+
+     .rightimepool .hirwall {
           justify-content: flex-start;
           align-items: center;
+     }
+
+     .rightside .content-box .darkbluebox:nth-of-type(3) {
+          order: 7;
+     }
+
+     .rightside .content-box .darkbluebox:nth-of-type(4) {
+          order: -2;
+          border-radius: 0px 0px 20px 0px!important;
+     }
+     .rightside .content-box .darkbluebox:nth-of-type(5) {
+          border-radius: 0px 0px 20px 0px!important;
+     }
+
+     .rightside .content-box .darkbluebox:nth-of-type(2) {
+
+          order: 6;
+     }
+
+     .rightside .content-box .darkbluebox:nth-of-type(6) {
+          order: 6;
+          border-radius: 0px 0px 20px 0px!important;
      }
 }

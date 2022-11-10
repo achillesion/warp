@@ -18,8 +18,8 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/Dashboard" element={<Dashboard />}/>
           <Route path="/coin-flipper" element={<Coinflipping />}/>
-          {/* <Route path="/contact-us" element={<Faq />}/> */}
           <Route path="/swaps" element={<Swaps />}/>
+          <Route path="/faq" element={<Faq />} />
         </Routes>
         < Footer />
       </div>

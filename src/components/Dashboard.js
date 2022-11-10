@@ -30,7 +30,7 @@ function Dashboard() {
                     <p>Daily Yeild: 0 WRAP</p>
                   </div>
                   <div className='hiringright'>
-                    <h3><img src={wallet} />Wallet</h3>
+                    <h3><img src={wallet} alt='walletimage' />Wallet</h3>
                     <p>0 WARP</p>
                   </div>
                 </div>
@@ -65,14 +65,14 @@ function Dashboard() {
                   </div>
                 </div>
                 <div className='hiredbuttons'>
-                    <button>Sell crops in  00:00:00 </button>
-                    <button className='hiree'>Hire More Farmers ( + 0% )</button>
-                  </div>
-                  <div className='withdrawin'><p>Every time you compound without withdrawing, your compound bonus grows by 0% (max +0%). Withdrawing will reset your bonus to 0.</p></div>
-                  <div className='referrallink '>
+                  <button>Sell crops in  00:00:00 </button>
+                  <button className='hiree'>Hire More Farmers ( + 0% )</button>
+                </div>
+                <div className='withdrawin'><p>Every time you compound without withdrawing, your compound bonus grows by 0% (max +0%). Withdrawing will reset your bonus to 0.</p></div>
+                <div className='referrallink '>
                   <img src={checkmarrk} alt='' />
                   <p>Earn 0% on your referral link!  </p>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
